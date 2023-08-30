@@ -1,0 +1,61 @@
+.content {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+  }
+
+  .consulta-cep {
+    display: flex;
+  }
+
+  #loadingGif {
+    display: none;
+    padding: 1px;
+  }
+
+  #fetchButton {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+  }
+
+  .no-arrows::-webkit-inner-spin-button,
+  .no-arrows::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+
+  #cepInput {
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 8px;
+  }
+
+  #result {
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    min-height: 50px;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .titulo {
+    margin-top: 36px;
+    margin-left: 5px;
+    font-size: 20px;
+    color: #000;
+  }
+
+  #errorText {
+    color: red;
+    padding: 16px;
+  }
