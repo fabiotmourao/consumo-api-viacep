@@ -2,7 +2,6 @@
 
 1. Clone o repositório para sua máquina local:
 
-```sh
 git@github.com:fabiotmourao/consumo-api-viacep.git
 
 # Comportamento dessa consulta de endereço por CEP
