@@ -5,7 +5,7 @@
 ```sh
 git@github.com:fabiotmourao/consumo-api-viacep.git
 
-# Consulta de Endereço por CEP
+# Comportamento dessa consulta de endereço por CEP
 
 Este repositório contém um código simples usando javascript html e css para que permite aos usuários consultar informações de endereço a partir de um CEP. 
 O código utiliza a API pública do ViaCEP "https://viacep.com.br/ws/01001000/json/",
